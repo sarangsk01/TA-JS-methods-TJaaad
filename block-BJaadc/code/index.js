@@ -13,21 +13,21 @@ console.log(message.indexOf("still"));
 // Log the index of word "answers" in message
 console.log(message.indexOf("answers"));
 // Log true or false based on whether the word "answers" exist in message or not
-console.log(message.includes("answers"));
+console.log(message.indexOf("answers") !== -1);
 // Log true or false based on whether the word "they" exist in message or not
-console.log(message.includes("they"));
+console.log(message.indexOf("they") !== -1);
 // Log true or false based on whether the word "is" exist in message or not
-console.log(message.includes("is"));
+console.log(message.indexOf("is") !== -1);
 // Log true or false based on whether the word "Is" exist in message or not
-console.log(message.includes("Is"));
+console.log(message.indexOf("Is") !== -1);
 // Check and log whether the word from index 3 to 6 is "you" or not (use slice)
-console.log(message.slice(3,6));
+console.log(message.slice(3,6) === "you");
 // Check and log whether the word from index 7 to 8 is "a" or not
-console.log(message.slice(7,8));
+console.log(message.slice(7,8) === "a");
 // Check and log whether the last 3 character in message is "no!" or not (you can use -3 in slice)
-console.log(message.slice(-3));
+console.log(message.slice(-3) === "no!");
 // Check and log whether the last 5 character in message is "no!" or not
-console.log(message.slice(40,43));
+console.log(message.slice(-5) === "no!");
 // Log the message variable, all in lowecase
 console.log(message.toLowerCase());
 // Log the message variable, all in uppercase
@@ -48,4 +48,6 @@ for(let text of message){
 // Split all the words in message (split by " " space) and store it in a variable messageArray
 let messageArray = message.split(" ");
 // Log all the words of messageArray
-console.log(messageArray);
+for(let text of messageArray){
+    console.log(text);
+}
