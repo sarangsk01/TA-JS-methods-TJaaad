@@ -13,7 +13,7 @@ let words = [
 
 // - Convert the above array "words" into an array of length of word instead of word.
 
-// - Create a new array that only contains word with atleast one vowel.
+// - Create a new array that only contains word with atleast one vowel..
 
 // - Find the index of the word "rhythm"
 
