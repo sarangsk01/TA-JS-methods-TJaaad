@@ -11,27 +11,31 @@ Clone the array before using sort method: [...arr]
 */
 
 // - Find the index of `101` in numbers
-
+numbers.indexOf(101);
 // - Find the last index of `9` in numbers
-
+numbers.lastIndexOf(9);
 // - Convert value of strings array into a sentance like "This is a collection of words"
-
+strings.concat(" ");
 // - Add two new words in the strings array "called" and "sentance"
-
+strings.push("called","sentance");
 // - Again convert the updated array (strings) into sentance like "This is a collection of words called sentance"
-
+strings.concat(" ");
 // - Remove the first word in the array (strings)
-
+strings.shift();
 // - Find all the words that contain 'is' use string method 'includes'
-
+strings.includes("is");
 // - Find all the words that contain 'is' use string method 'indexOf'
-
+strings.indexOf("is");
 // - Check if all the numbers in numbers array are divisible by three use array method (every)
-
+let ret = numbers.every(function(number){
+  return number % 3 === 0;
+});
+console.log(ret);
 // -  Sort Array from smallest to largest
-
+[...numbers];
+numbers.sort();
 // - Remove the last word in strings
-
+strings.pop();
 // - Find largest number in numbers
 
 // - Find longest string in strings
