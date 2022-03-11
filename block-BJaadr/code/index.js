@@ -22,7 +22,7 @@ function nameWithA() {
 
 function surnameWithS() {
   // your code goes here
-}
+};
 
 function surnameWithA() {
   // your code goes here
