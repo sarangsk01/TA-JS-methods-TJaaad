@@ -13,7 +13,7 @@ let persons = [
   { name: 'Arya', grade: 14, sex: 'F' },
 ];
 
-// NOTE: Use reduce method whereever you can to solve this exercise:
+// NOTE: Use reduce method whereever you can to solve this exercise:.
 
 // Find the average grade
 
