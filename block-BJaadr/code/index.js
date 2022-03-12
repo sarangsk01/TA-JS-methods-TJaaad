@@ -23,7 +23,7 @@ function everyone() {
 
 function nameWithS() {
   return got.houses.reduce((acc,house)=>{
-    acc = acc.concat(house.people.map((p) => p.name).filter(name => name.toLowerCase().includes("s")));
+    acc = acc.concat(house.people.map((p) => p.name).filter(name => name.toLowerCase().includes("S")));
     return acc;
 },{});
 }
